@@ -7,8 +7,8 @@ This project is a simple inventory management dashboard built with React and Red
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/my-inventory-project.git
-   cd my-inventory-project
+   git clone https://github.com/debesh-26/AdminDashboad.git
+   cd frontend
    
  2.Install dependencies:
     
