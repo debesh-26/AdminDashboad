@@ -1,0 +1,53 @@
+.filter-design {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.letter {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.88px;
+    letter-spacing: 0.17000000178813934px;
+    text-align: left;
+    box-shadow: 0px 2px 3px 0px #0000001A;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Inventory{
+    display: flex;
+    flex-direction: row;
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    min-width: 400px;
+  }
+  
+  .inventory-table thead tr {
+    color: black;
+    text-align: left;
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    padding: 12px 15px;
+  }
+  
+  .inventory-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .inventory-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .inventory-table tbody tr:last-of-type {
+    border-bottom: 2px solid #a5b1af;
+  }
+  

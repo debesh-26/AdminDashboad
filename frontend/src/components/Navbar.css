@@ -1,0 +1,160 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px 10px 35px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background: #393939;
+
+
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    gap: 11px;
+    opacity: 0.9;
+}
+
+.nav-item1 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.nav-item2-wrapper {
+    width: 74px;
+    height: 20px;
+    padding: 3px 7px 3px 7px;
+    gap: 10px;
+    border-radius: 29px;
+    opacity: 0px;
+    background: #FFFFFF;
+
+}
+
+.nav-item2 {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14.3px;
+    letter-spacing: 0.17000000178813934px;
+    text-align: left;
+    color: #393939
+}
+
+.logo {
+    width: 46.93px;
+    height: 47.23px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.support-section {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 21px;
+    padding: 0px 7px 0px 7px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+
+.support-logo {
+    Color: #FF9926;
+    top: 0.08px;
+    left: 0.08px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.support-text {
+    font-size: 16px;
+    color: white;
+}
+
+.account-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.account-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.account-name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        align-items:center;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item,
+    .support-section,
+    .account-section {
+        padding: 5px 0;
+    }
+
+    .nav-item {
+        font-size: 14px;
+    }
+
+    .support-text {
+        font-size: 14px;
+    }
+
+    .support-logo,
+    .account-photo {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        align-items:center;
+        width: 413px;
+    }
+
+    .nav-item,
+    .support-text {
+        font-size: 12px;
+    }
+
+    .support-logo,
+    .account-photo {
+        width: 25px;
+        height: 25px;
+    }
+}

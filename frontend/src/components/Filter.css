@@ -1,0 +1,51 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1578px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.filter-left {
+    width: 142px;
+    height: 40px;
+    gap: 5px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 39.84px;
+    text-align: left;
+
+
+}
+
+.filter-right {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.select-section {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.88px;
+    letter-spacing: 0.17000000178813934px;
+    text-align: left;
+    margin-right: 5px;
+    
+}
+
+.name-section {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 1px solid #FF9926
+}
